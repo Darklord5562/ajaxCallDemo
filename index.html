@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <title>Happy</title>
+  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/all.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/fontawesome.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="spinner" id="spinner">
+    <i class="fa fa-circle-notch" style="font-size: 40px;"></i>
+  </div>
+  <div class="" id="overlay"></div>
+  <div id="app" class="app">
+    <div class="fixed-top-bar">
+      <brand>The Happy Dobby</brand>
+    </div>
+    <!-- <div class="modal">
+      <div class="modal-header">
+        Notice
+      </div>
+      <div class="modal-body">
+        <p>
+          Do you agree with the terms and conditions of our site and give consent to share the data you entered to our team ?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn">Ok</button>
+        <button class="btn">cancel</button>
+      </div>
+    </div> -->
+    <div class="fixed-bottom-bar">
+      <i id="home" class="bottom-bar-tab-name fa fa-home active-bottom-tab"></i>
+      <i id="chats" class="bottom-bar-tab-name fa fa-comments"></i>
+      <i id="explore" class="bottom-bar-tab-name fab fa-safari"></i>
+      <i id="notification" class="bottom-bar-tab-name fa fa-bell"></i>
+      <i id="settings" class="bottom-bar-tab-name fa fa-user-cog"></i>
+    </div>
+    <!----static content-------->
+    <div id="root" class="root">
+      <div class="inpage-alert">
+        Login or signup here to use this app. You can see the description of this app <a href="about.html">here</a>.
+      </div>
+      <div class="form-div">
+        <form class="forms" id="login-form">
+          <h3>Login here to continue</h3>
+          <input class="mt-10" type="text" name="loginUsename" id="">
+          <div class="inp-grp mt-5">
+            <input type="password" name="loginPassword" id="pass" class="password input-with-hint">
+            <span class="hint-icon fa fa-eye-slash"></span>
+          </div>
+          <button class="bg-blue block mt-5" type="submit">Login</button>
+        </form>
+      </div>
+      <form action="" class="form" style="margin-top: 25vh;">
+        <button onclick="showLoginForm()" type="button" class="bg-blue block" id="login-btn">
+          Login here
+        </button>
+        <span class="hint">If you are new to this site, you can <span class="a" id="signup-btn">create an account</span> to continue</span>
+      </form>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
